@@ -24,7 +24,7 @@ const projects: Project[] = [
           <p className="mt-3">O valor principal da entrega está na capacidade de comparar arquiteturas distintas e justificar escolhas técnicas e executivas com base em impacto real, não apenas em sofisticação técnica.</p>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Cenário A — Robustez tecnológica e profundidade</h5>
           <p>O Cenário A propõe a construção de um Neural CRM Core como núcleo orquestrador, estruturado em microsserviços sobre Kubernetes, com integração a Data Lake, Vector DB, LLM API, agentes especialistas e APIs de execução. A solução foi desenhada para operar como um sistema executivo, capaz de fechar o ciclo entre análise, decisão e ação.</p>
           
@@ -53,7 +53,7 @@ const projects: Project[] = [
           </div>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Cenário B — Criação de emprego e sustentabilidade interna</h5>
           <p>O Cenário B prioriza a criação de capacidade interna permanente, com contratação de FTEs e execução de um MVP mais enxuto do Neural CRM Core. A estratégia desloca o foco de “construir o sistema mais sofisticado” para “construir uma base organizacional sustentável para operar e evoluir o sistema”.</p>
           
@@ -81,7 +81,7 @@ const projects: Project[] = [
           </div>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Cenário C — Custo-eficiência reforçada com low-code</h5>
           <p>O Cenário C adota n8n self-hosted / gerenciado como núcleo de automação, com Custom Connectors, APIs de LLM/ML gerenciadas, governança de IA e documentação de risco. A lógica aqui é pragmática: entregar automação com menor risco financeiro, maior velocidade e boa resiliência operacional, sem sobreengenharia.</p>
           
@@ -143,7 +143,7 @@ const projects: Project[] = [
           <p className="mt-3">O valor do projeto está em combinar arquitetura da solução com forma de apresentação da solução.</p>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Projeto 2A — Automação de atendimento e triagem com IA</h5>
           <p>A iniciativa técnica propõe uma camada de agentes de IA como primeira linha de comunicação, atendendo em canais como chatbot onsite, WhatsApp, redes sociais e com possibilidade de expansão para e-mail.</p>
           
@@ -195,7 +195,7 @@ const projects: Project[] = [
           </div>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Projeto 2B — Webapresentação estratégica da proposta</h5>
           <p>A segunda iniciativa converteu a proposta em uma webapresentação, criada com frontend no Google Studio, identidade visual do cliente, narrativa estratégica da solução e deploy via GitHub/Vercel.</p>
           <p className="mt-3">A dor aqui não era técnica, mas de comunicação de valor: transformar uma proposta complexa em um formato claro, profissional e facilmente assimilável.</p>
@@ -245,7 +245,7 @@ const projects: Project[] = [
           <p className="mt-3">A proposta foi transformar um tema complexo em um sistema web consultável e expansível, com arquitetura clara, progressão lógica e uso orientado à aprendizagem.</p>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Problema / dor</h5>
           <p>A dor central era a dispersão do conhecimento sobre RAG:</p>
           <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -256,7 +256,7 @@ const projects: Project[] = [
           </ul>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Solução desenvolvida</h5>
           <p>Foi criado um website em HTML, com apoio de IA na codificação, mas com direção explícita de:</p>
           <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -277,7 +277,7 @@ const projects: Project[] = [
           </div>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Competências técnicas demonstradas</h5>
           <p>O projeto evidencia:</p>
           <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -292,7 +292,7 @@ const projects: Project[] = [
           </ul>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">UX/UI e arquitetura</h5>
           <p>Do ponto de vista de experiência e estrutura, o valor está em:</p>
           <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -305,7 +305,7 @@ const projects: Project[] = [
           <p className="mt-3">O mérito do projeto é arquitetural: ele foi organizado como sistema, não como página isolada.</p>
         </div>
 
-        <div className="system-border p-6 bg-primary/5">
+        <div className="system-border p-4 sm:p-6 bg-primary/5">
           <h5 className="text-xl font-medium text-contrast mb-3">Execução e operação</h5>
           <p>Além da concepção, o projeto foi:</p>
           <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
@@ -370,7 +370,7 @@ export default function App() {
       </header>
 
       {/* 1. Hero Section - Full Viewport Height */}
-      <section className="w-full min-h-screen flex flex-col justify-center relative px-6 pt-10 pb-10 md:pb-16">
+      <section className="w-full min-h-screen flex flex-col justify-center relative px-6 pt-24 pb-10 md:pb-16">
         <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           {/* Text Content */}
@@ -388,14 +388,14 @@ export default function App() {
                   <span>Rangel</span>
                 </span>
               </h1>
-              <h2 className="text-xl md:text-2xl text-primary font-medium italic tracking-wide mt-2 whitespace-nowrap">
+              <h2 className="text-xl md:text-2xl text-primary font-medium italic tracking-wide mt-2 whitespace-normal sm:whitespace-nowrap">
                 Arquiteto de Sistemas e Soluções Inteligentes com IA.
               </h2>
             </motion.div>
             
             <motion.div variants={fadeIn} className="mt-6">
-              <p className="text-lg md:text-xl text-contrast/80 leading-relaxed font-light whitespace-nowrap">
-                Construindo ecossistemas escaláveis, integrados e governáveis.<br />
+              <p className="text-lg md:text-xl text-contrast/80 leading-relaxed font-light whitespace-normal sm:whitespace-nowrap">
+                Construindo ecossistemas escaláveis, integrados e governáveis.<br className="hidden sm:block" />
                 Transformo complexidade operacional em arquiteturas limpas e eficientes.
               </p>
             </motion.div>
@@ -520,7 +520,7 @@ export default function App() {
               <motion.div 
                 key={project.id}
                 variants={fadeIn} 
-                className={`group system-border p-8 flex flex-col gap-8 hover:bg-contrast hover:text-bg transition-colors duration-300 cursor-pointer ${index === 2 ? 'md:col-span-2 lg:col-span-1' : ''}`}
+                className={`group system-border p-6 sm:p-8 flex flex-col gap-8 hover:bg-contrast hover:text-bg transition-colors duration-300 cursor-pointer ${index === 2 ? 'md:col-span-2 lg:col-span-1' : ''}`}
                 onClick={() => setSelectedProject(project)}
               >
                 <div className="flex justify-between items-start">
@@ -556,20 +556,20 @@ export default function App() {
                 className="bg-bg w-full max-w-4xl max-h-full overflow-y-auto system-border shadow-2xl flex flex-col"
                 onClick={(e) => e.stopPropagation()}
               >
-                <div className="sticky top-0 bg-bg/95 backdrop-blur-md border-b border-primary/20 p-6 flex justify-between items-start z-10">
-                  <div className="pr-8">
+                <div className="sticky top-0 bg-bg/95 backdrop-blur-md border-b border-primary/20 p-4 md:p-6 flex justify-between items-start z-10">
+                  <div className="pr-4 md:pr-8">
                     <span className="font-mono text-xs text-accent uppercase tracking-widest mb-2 block">{selectedProject.id} // Dossier</span>
-                    <h3 className="text-2xl md:text-3xl font-medium text-contrast leading-tight">{selectedProject.title}</h3>
+                    <h3 className="text-xl sm:text-2xl md:text-3xl font-medium text-contrast leading-tight">{selectedProject.title}</h3>
                   </div>
                   <button 
                     onClick={() => setSelectedProject(null)}
-                    className="p-2 hover:bg-primary/10 rounded-full transition-colors text-contrast flex-shrink-0"
+                    className="p-2 hover:bg-primary/10 rounded-full transition-colors text-contrast flex-shrink-0 -mt-1 -mr-1 md:mt-0 md:mr-0"
                     aria-label="Close modal"
                   >
                     <X className="w-6 h-6" />
                   </button>
                 </div>
-                <div className="p-6 md:p-10">
+                <div className="p-4 sm:p-6 md:p-10">
                   {selectedProject.fullContent}
                 </div>
               </motion.div>
@@ -652,7 +652,7 @@ export default function App() {
               href="https://wa.me/+351936505168" 
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 bg-contrast text-bg hover:bg-accent transition-colors duration-300 font-medium text-sm tracking-wide"
+              className="inline-flex items-center justify-center gap-3 px-6 sm:px-8 py-4 bg-contrast text-bg hover:bg-accent transition-colors duration-300 font-medium text-xs sm:text-sm tracking-wide w-full sm:w-auto"
             >
               INICIAR PROTOCOLO DE CONTATO
               <ArrowUpRight className="w-4 h-4" />
@@ -671,7 +671,7 @@ export default function App() {
         </div>
         
         {/* Center content */}
-        <div className="text-center md:absolute md:left-1/2 md:-translate-x-1/2 whitespace-nowrap">
+        <div className="text-center md:absolute md:left-1/2 md:-translate-x-1/2 whitespace-normal sm:whitespace-nowrap">
           &copy; {new Date().getFullYear()} ANDRÉ RANGEL. ALL RIGHTS RESERVED.
         </div>
         
