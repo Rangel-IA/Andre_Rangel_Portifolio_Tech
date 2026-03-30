@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowUpRight, Terminal, Layers, Cpu, Network, Database, Workflow, ShieldCheck, X } from 'lucide-react';
-import logoUrl from './assets/logo.png';
+import brandMarkUrl from './assets/brand-mark.png';
 
 type Project = {
   id: string;
@@ -357,7 +357,7 @@ export default function App() {
       {/* Top Navigation Bar - System Status Style */}
       <header className="w-full max-w-7xl mx-auto px-6 py-4 flex justify-between items-center system-border-b text-xs font-mono text-primary uppercase tracking-wider absolute top-0 left-0 right-0 z-10 bg-bg/80 backdrop-blur-sm">
         <div className="flex items-center gap-4">
-          <img src={logoUrl} alt="AR Logo" className="h-4 w-auto opacity-90" />
+          <img src={brandMarkUrl} alt="AR Logo" className="h-4 w-auto object-contain shrink-0 opacity-90" />
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-accent rounded-full animate-pulse"></div>
             <span>System.Online</span>
